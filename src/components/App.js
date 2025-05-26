@@ -73,7 +73,7 @@ const { name, job, image, text, id } = reviews[index];
             
                 
                     <div className="review">
-                        <p className="author" id={`author-${id}`}>{name}</p>
+                        <p className="author" id={`#author-${id}`}>{name}</p>
                         <p className="job">{job}</p>
                         <p className="info">{text}</p>
                         <img className="person-img" src={image}/>
@@ -81,7 +81,7 @@ const { name, job, image, text, id } = reviews[index];
             
             
             
-            <button className="prev-btn" onClick={previousIndex} >previous</button>
+            <button  className=".prev-btn" onClick={previousIndex} >previous</button>
             <button className="next-btn" onClick={nextIndex}>next</button>
             <button className="random-btn" onClick={randomIndex}>random</button>
 
